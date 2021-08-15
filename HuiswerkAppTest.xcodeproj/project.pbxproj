@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,14 @@
 		0C0BA82A26B82E7100C4A593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C0BA82826B82E7100C4A593 /* LaunchScreen.storyboard */; };
 		0C0BA83526B82E7100C4A593 /* HuiswerkAppTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0BA83426B82E7100C4A593 /* HuiswerkAppTestTests.swift */; };
 		0C0BA84026B82E7100C4A593 /* HuiswerkAppTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0BA83F26B82E7100C4A593 /* HuiswerkAppTestUITests.swift */; };
+		0C0BA85B26BF056000C4A593 /* Homework.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0BA85A26BF056000C4A593 /* Homework.swift */; };
+		0C0BA86526C177B000C4A593 /* AddHWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0BA86426C177B000C4A593 /* AddHWViewController.swift */; };
+		0C0BA86D26C17E7100C4A593 /* Homeworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0BA86C26C17E7100C4A593 /* Homeworks.swift */; };
+		0C0BA87526C42AC600C4A593 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0BA87426C42AC600C4A593 /* DetailsViewController.swift */; };
+		0C0BA87A26C6BDC300C4A593 /* HomeworkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0BA87926C6BDC300C4A593 /* HomeworkTableViewCell.swift */; };
+		4403C2318052F3C2F8F27A04 /* Pods_HuiswerkAppTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9AEC25ECB6D9248E8968BC7 /* Pods_HuiswerkAppTest.framework */; };
+		813F183D23B6D6EA0ED0ACCA /* Pods_HuiswerkAppTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43B5227006BC8079C6BDD2C1 /* Pods_HuiswerkAppTestTests.framework */; };
+		8759E9768A108E089F675218 /* Pods_HuiswerkAppTest_HuiswerkAppTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EB8906B0B691E400BA5B1F /* Pods_HuiswerkAppTest_HuiswerkAppTestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,20 @@
 		0C0BA83B26B82E7100C4A593 /* HuiswerkAppTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuiswerkAppTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C0BA83F26B82E7100C4A593 /* HuiswerkAppTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuiswerkAppTestUITests.swift; sourceTree = "<group>"; };
 		0C0BA84126B82E7100C4A593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C0BA85A26BF056000C4A593 /* Homework.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework.swift; sourceTree = "<group>"; };
+		0C0BA86426C177B000C4A593 /* AddHWViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHWViewController.swift; sourceTree = "<group>"; };
+		0C0BA86C26C17E7100C4A593 /* Homeworks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homeworks.swift; sourceTree = "<group>"; };
+		0C0BA87426C42AC600C4A593 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		0C0BA87926C6BDC300C4A593 /* HomeworkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeworkTableViewCell.swift; sourceTree = "<group>"; };
+		34DB28E708CF4BB7B77AD651 /* Pods-HuiswerkAppTest-HuiswerkAppTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuiswerkAppTest-HuiswerkAppTestUITests.release.xcconfig"; path = "Target Support Files/Pods-HuiswerkAppTest-HuiswerkAppTestUITests/Pods-HuiswerkAppTest-HuiswerkAppTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		43B5227006BC8079C6BDD2C1 /* Pods_HuiswerkAppTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuiswerkAppTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DA0F8BB1154D7F75228D455 /* Pods-HuiswerkAppTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuiswerkAppTest.debug.xcconfig"; path = "Target Support Files/Pods-HuiswerkAppTest/Pods-HuiswerkAppTest.debug.xcconfig"; sourceTree = "<group>"; };
+		8246D0E09F4D8BEE375BF10D /* Pods-HuiswerkAppTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuiswerkAppTestTests.release.xcconfig"; path = "Target Support Files/Pods-HuiswerkAppTestTests/Pods-HuiswerkAppTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB05217F7496ADC8298D58F8 /* Pods-HuiswerkAppTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuiswerkAppTestTests.debug.xcconfig"; path = "Target Support Files/Pods-HuiswerkAppTestTests/Pods-HuiswerkAppTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D415B392A3FA16106FFCDA93 /* Pods-HuiswerkAppTest-HuiswerkAppTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuiswerkAppTest-HuiswerkAppTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-HuiswerkAppTest-HuiswerkAppTestUITests/Pods-HuiswerkAppTest-HuiswerkAppTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E92A3EF0593EF7245248471F /* Pods-HuiswerkAppTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuiswerkAppTest.release.xcconfig"; path = "Target Support Files/Pods-HuiswerkAppTest/Pods-HuiswerkAppTest.release.xcconfig"; sourceTree = "<group>"; };
+		E9EB8906B0B691E400BA5B1F /* Pods_HuiswerkAppTest_HuiswerkAppTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuiswerkAppTest_HuiswerkAppTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9AEC25ECB6D9248E8968BC7 /* Pods_HuiswerkAppTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuiswerkAppTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4403C2318052F3C2F8F27A04 /* Pods_HuiswerkAppTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				813F183D23B6D6EA0ED0ACCA /* Pods_HuiswerkAppTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8759E9768A108E089F675218 /* Pods_HuiswerkAppTest_HuiswerkAppTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +110,8 @@
 				0C0BA83326B82E7100C4A593 /* HuiswerkAppTestTests */,
 				0C0BA83E26B82E7100C4A593 /* HuiswerkAppTestUITests */,
 				0C0BA81826B82E6B00C4A593 /* Products */,
+				7AAA318E49E33A40728DDE48 /* Pods */,
+				C5D9B854F84A71D7CDF30020 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +128,11 @@
 		0C0BA81926B82E6B00C4A593 /* HuiswerkAppTest */ = {
 			isa = PBXGroup;
 			children = (
+				0C0BA88426C6C22A00C4A593 /* Classes */,
+				0C0BA88326C6C20C00C4A593 /* Views */,
+				0C0BA88226C6C1FB00C4A593 /* Controllers */,
 				0C0BA81A26B82E6B00C4A593 /* AppDelegate.swift */,
 				0C0BA81C26B82E6B00C4A593 /* SceneDelegate.swift */,
-				0C0BA81E26B82E6B00C4A593 /* ViewController.swift */,
-				0C0BA82026B82E6B00C4A593 /* Main.storyboard */,
 				0C0BA82626B82E7100C4A593 /* Assets.xcassets */,
 				0C0BA82826B82E7100C4A593 /* LaunchScreen.storyboard */,
 				0C0BA82B26B82E7100C4A593 /* Info.plist */,
@@ -131,6 +159,57 @@
 			path = HuiswerkAppTestUITests;
 			sourceTree = "<group>";
 		};
+		0C0BA88226C6C1FB00C4A593 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BA81E26B82E6B00C4A593 /* ViewController.swift */,
+				0C0BA87426C42AC600C4A593 /* DetailsViewController.swift */,
+				0C0BA86426C177B000C4A593 /* AddHWViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0C0BA88326C6C20C00C4A593 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BA82026B82E6B00C4A593 /* Main.storyboard */,
+				0C0BA87926C6BDC300C4A593 /* HomeworkTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0C0BA88426C6C22A00C4A593 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BA86C26C17E7100C4A593 /* Homeworks.swift */,
+				0C0BA85A26BF056000C4A593 /* Homework.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7AAA318E49E33A40728DDE48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DA0F8BB1154D7F75228D455 /* Pods-HuiswerkAppTest.debug.xcconfig */,
+				E92A3EF0593EF7245248471F /* Pods-HuiswerkAppTest.release.xcconfig */,
+				D415B392A3FA16106FFCDA93 /* Pods-HuiswerkAppTest-HuiswerkAppTestUITests.debug.xcconfig */,
+				34DB28E708CF4BB7B77AD651 /* Pods-HuiswerkAppTest-HuiswerkAppTestUITests.release.xcconfig */,
+				AB05217F7496ADC8298D58F8 /* Pods-HuiswerkAppTestTests.debug.xcconfig */,
+				8246D0E09F4D8BEE375BF10D /* Pods-HuiswerkAppTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5D9B854F84A71D7CDF30020 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9AEC25ECB6D9248E8968BC7 /* Pods_HuiswerkAppTest.framework */,
+				E9EB8906B0B691E400BA5B1F /* Pods_HuiswerkAppTest_HuiswerkAppTestUITests.framework */,
+				43B5227006BC8079C6BDD2C1 /* Pods_HuiswerkAppTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C0BA84426B82E7100C4A593 /* Build configuration list for PBXNativeTarget "HuiswerkAppTest" */;
 			buildPhases = (
+				4745D9296673F43E0AEAE79D /* [CP] Check Pods Manifest.lock */,
 				0C0BA81326B82E6B00C4A593 /* Sources */,
 				0C0BA81426B82E6B00C4A593 /* Frameworks */,
 				0C0BA81526B82E6B00C4A593 /* Resources */,
+				3AE8C1F390DD6AA595A9F187 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C0BA84726B82E7100C4A593 /* Build configuration list for PBXNativeTarget "HuiswerkAppTestTests" */;
 			buildPhases = (
+				77C7877E0F0F1A66F835655A /* [CP] Check Pods Manifest.lock */,
 				0C0BA82C26B82E7100C4A593 /* Sources */,
 				0C0BA82D26B82E7100C4A593 /* Frameworks */,
 				0C0BA82E26B82E7100C4A593 /* Resources */,
@@ -173,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C0BA84A26B82E7100C4A593 /* Build configuration list for PBXNativeTarget "HuiswerkAppTestUITests" */;
 			buildPhases = (
+				7E6B4471A751EAAA9DAB5C34 /* [CP] Check Pods Manifest.lock */,
 				0C0BA83726B82E7100C4A593 /* Sources */,
 				0C0BA83826B82E7100C4A593 /* Frameworks */,
 				0C0BA83926B82E7100C4A593 /* Resources */,
+				70B09F1B03CB18EE784F9506 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,15 +340,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3AE8C1F390DD6AA595A9F187 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HuiswerkAppTest/Pods-HuiswerkAppTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HuiswerkAppTest/Pods-HuiswerkAppTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HuiswerkAppTest/Pods-HuiswerkAppTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4745D9296673F43E0AEAE79D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HuiswerkAppTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70B09F1B03CB18EE784F9506 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HuiswerkAppTest-HuiswerkAppTestUITests/Pods-HuiswerkAppTest-HuiswerkAppTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HuiswerkAppTest-HuiswerkAppTestUITests/Pods-HuiswerkAppTest-HuiswerkAppTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HuiswerkAppTest-HuiswerkAppTestUITests/Pods-HuiswerkAppTest-HuiswerkAppTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77C7877E0F0F1A66F835655A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HuiswerkAppTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E6B4471A751EAAA9DAB5C34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HuiswerkAppTest-HuiswerkAppTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0C0BA81326B82E6B00C4A593 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				0C0BA81F26B82E6B00C4A593 /* ViewController.swift in Sources */,
+				0C0BA86526C177B000C4A593 /* AddHWViewController.swift in Sources */,
+				0C0BA85B26BF056000C4A593 /* Homework.swift in Sources */,
+				0C0BA87526C42AC600C4A593 /* DetailsViewController.swift in Sources */,
 				0C0BA81B26B82E6B00C4A593 /* AppDelegate.swift in Sources */,
 				0C0BA81D26B82E6B00C4A593 /* SceneDelegate.swift in Sources */,
 				0C0BA82526B82E6B00C4A593 /* HuiswerkAppTest.xcdatamodeld in Sources */,
+				0C0BA87A26C6BDC300C4A593 /* HomeworkTableViewCell.swift in Sources */,
+				0C0BA86D26C17E7100C4A593 /* Homeworks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +629,7 @@
 		};
 		0C0BA84526B82E7100C4A593 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DA0F8BB1154D7F75228D455 /* Pods-HuiswerkAppTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +649,7 @@
 		};
 		0C0BA84626B82E7100C4A593 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E92A3EF0593EF7245248471F /* Pods-HuiswerkAppTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,6 +669,7 @@
 		};
 		0C0BA84826B82E7100C4A593 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB05217F7496ADC8298D58F8 /* Pods-HuiswerkAppTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +692,7 @@
 		};
 		0C0BA84926B82E7100C4A593 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8246D0E09F4D8BEE375BF10D /* Pods-HuiswerkAppTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +715,7 @@
 		};
 		0C0BA84B26B82E7100C4A593 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D415B392A3FA16106FFCDA93 /* Pods-HuiswerkAppTest-HuiswerkAppTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +736,7 @@
 		};
 		0C0BA84C26B82E7100C4A593 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34DB28E708CF4BB7B77AD651 /* Pods-HuiswerkAppTest-HuiswerkAppTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
