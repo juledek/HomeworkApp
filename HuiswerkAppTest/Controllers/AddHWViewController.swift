@@ -64,8 +64,6 @@ class AddHWViewController: UIViewController {
             Homeworks.homeworks.hws.append(hw)
             print(Homeworks.homeworks.hws.count)
             
-            let vc = ViewController()
-            //vc.unwindToMainMenu(sender: nil)
             performSegue(withIdentifier: "unwindToMainMn", sender: nil)
         }
         

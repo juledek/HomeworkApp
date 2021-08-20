@@ -11,7 +11,7 @@ class DetailsViewController: UIViewController {
     
     
     @IBOutlet var titleLabel: UILabel!
-    @IBOutlet var descriptionLabel: UILabel!
+    @IBOutlet var descriptionField: UITextField!
     @IBOutlet var dueDateLabel: UILabel!
     @IBOutlet var courseLabel: UILabel!
     
@@ -33,7 +33,9 @@ class DetailsViewController: UIViewController {
         let date = dateFormatter.string(from:homework.DateDue)
         
         titleLabel.text = homework.Title
-        descriptionLabel.text = homework.Description
+        descriptionField.text = homework.Description
+        descriptionField.allowsEditingTextAttributes = false;
+    
         dueDateLabel.text = "Due on " + date
         courseLabel.text = "This " + (homework.HomeworkOrTest ? "homework" : "test") + " is for the course " + homework.Course
         
